@@ -196,7 +196,7 @@ cv2.destroyAllWindows()
 ### viii) RGB and BGR to YCrCb
 ```Python
 import cv2
-img = cv2.imread('niru.jpg')
+img = cv2.imread('jai.jpg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -212,13 +212,14 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
-![WhatsApp Image 2024-02-13 at 09 31 45_06cb726d](https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/0e2375a9-9358-40ca-a9d2-d7d6e59739ad)
+![Screenshot (296)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/df16a437-f9b8-4f06-8e0a-7bfa47639201)
+
 
 
 ### ix) Split and merge RGB Image
 ```Python
 import cv2
-img = cv2.imread('niru.jpg',1)
+img = cv2.imread('jai.jpg',1)
 img = cv2.resize(img,(300,200))
 
 R = img[:,:,2]
@@ -237,8 +238,8 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
+![Screenshot (297)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/9e2ca3e4-d940-4a11-91dc-7bf8b637f016)
 
-![WhatsApp Image 2024-02-13 at 09 33 45_c1219fa4](https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/b12e93e8-512e-4bba-9c71-af164894ee3e)
 
 
 
