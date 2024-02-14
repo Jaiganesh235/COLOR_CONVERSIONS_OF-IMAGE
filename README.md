@@ -46,12 +46,12 @@ Split and merge HSV Image
 
 ### i) Read and display the image
 ```Python
-    import cv2
-    image=cv2.imread('jai.jpg',1)
-    image=cv2.resize(image,(400,300))
-    cv2.imshow('photography by jai',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+import cv2
+image=cv2.imread('jai.jpg',1)
+image=cv2.resize(image,(400,300))
+cv2.imshow('photography by jai',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ``` 
   </td>
   <td>
@@ -68,9 +68,9 @@ Split and merge HSV Image
 
 ### ii)Write the image
 ```Python
-    import cv2
-    image=cv2.imread('jai.jpg',0)
-    cv2.imwrite('news.jpg',image)
+import cv2
+image=cv2.imread('jai.jpg',0)
+cv2.imwrite('news.jpg',image)
 ```
   </td>
   <td>
@@ -86,9 +86,9 @@ Split and merge HSV Image
 
 ### iii)Shape of the Image
 ```Python
-    import cv2
-    image=cv2.imread('jai.jpg',1)
-    print(image.shape)
+import cv2
+image=cv2.imread('jai.jpg',1)
+print(image.shape)
 ```
   </td>
   <td>
@@ -104,18 +104,18 @@ Split and merge HSV Image
       
 ### iv)Access rows and columns
 ```Python
-    import random
-    import cv2
-    image=cv2.imread('jai.jpg',1)
-    image=cv2.resize(image,(400,400))
-    for i in range (150,200):
-        for j in range(image.shape[1]):
-            image[i][j]=[random.randint(0,255),
-                         random.randint(0,255),
-                         random.randint(0,255)] 
-    cv2.imshow('particular image',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+import random
+import cv2
+image=cv2.imread('jai.jpg',1)
+image=cv2.resize(image,(400,400))
+for i in range (150,200):
+for j in range(image.shape[1]):
+       image[i][j]=[random.randint(0,255),
+                    random.randint(0,255),
+                    random.randint(0,255)] 
+cv2.imshow('particular image',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
   </td>
   <td width="50%">
@@ -131,14 +131,14 @@ Split and merge HSV Image
 ### v)Cut and paste portion of image
 
  ```Python
-   import cv2
-   image=cv2.imread('jai.jpg',1)
-   image=cv2.resize(image,(400,400))
-   tag =image[150:200,110:160]
-   image[110:160,150:200] = tag
-   cv2.imshow('particular image 1',image)
-   cv2.waitKey(0)
-   cv2.destroyAllWindows()
+ import cv2
+ image=cv2.imread('jai.jpg',1)
+ image=cv2.resize(image,(400,400))
+ tag =image[150:200,110:160]
+ image[110:160,150:200] = tag
+ cv2.imshow('particular image 1',image)
+ cv2.waitKey(0)
+ cv2.destroyAllWindows()
 ```
   </td>
   <td>
