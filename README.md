@@ -59,15 +59,16 @@ Anaconda - Python 3.7
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('niru.jpg',0)
-    cv2.imwrite('demos.jpg',image)
+    image=cv2.imread('jai.jpg',0)
+    cv2.imwrite('news.jpg',image)
 ```
   </td>
   <td>
 
 ### OUTPUT:
 
-<img src="https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/f4759f56-2fa8-4afc-84a8-a37bd5af460b">
+![Screenshot (290)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/a4c8ac4c-ed3c-4ea3-a598-4c4cd4295af4)
+
   </td>
   </tr>
   <tr>
