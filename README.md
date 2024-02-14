@@ -144,7 +144,7 @@ Anaconda - Python 3.7
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
 import cv2
-img = cv2.imread('niru.jpg',1)
+img = cv2.imread('jai.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 
@@ -165,14 +165,13 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-
-![WhatsApp Image 2024-02-12 at 22 21 57_a92d98dc](https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/19799dd5-cab6-4344-bd5b-e9301f80a6b7)
+![Screenshot (294)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/67b2d842-0a63-43cc-a1b4-0ca1dc6c592a)
 
 
 ### vii) HSV to RGB and BGR
 ```Python
 import cv2
-img = cv2.imread('niru.jpg')
+img = cv2.imread('jai.jpg')
 img = cv2.resize(img,(300,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -190,7 +189,8 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
-![WhatsApp Image 2024-02-12 at 22 22 46_9835eea4](https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/550aedc3-8dac-4542-8f59-8cc4175b91ef)
+![Screenshot (295)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/5426875a-fe70-479e-b834-76019182c807)
+
 
 
 ### viii) RGB and BGR to YCrCb
