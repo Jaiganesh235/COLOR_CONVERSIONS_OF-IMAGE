@@ -77,14 +77,16 @@ Anaconda - Python 3.7
 ### iii)Shape of the Image
 ```Python
     import cv2
-    image=cv2.imread('niru.jpg',1)
+    image=cv2.imread('jai.jpg',1)
     print(image.shape)
 ```
   </td>
   <td>
 
 ### OUTPUT:
-<img src="https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/f51f8b3e-acca-4c73-abf2-ae7101faa449">
+![Screenshot (291)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/809e3b36-d123-4a4a-8837-b20a3325afc6)
+
+
   </td>
   </tr>
   <tr>
