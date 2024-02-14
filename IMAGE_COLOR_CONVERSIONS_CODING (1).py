@@ -7,7 +7,12 @@
 
 
 #read and diplay image
-#Type ur code here
+import cv2
+image=cv2.imread('jai.jpg',1)
+image=cv2.resize(image,(400,300))
+cv2.imshow('photography by jai',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 
 # In[ ]:
