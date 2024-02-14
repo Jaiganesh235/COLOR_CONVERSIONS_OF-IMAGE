@@ -246,7 +246,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```Python
 import cv2
-img = cv2.imread("niru.jpg",1)
+img = cv2.imread("jai.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
@@ -265,7 +265,8 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
-![WhatsApp Image 2024-02-13 at 09 35 01_9654fe31](https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/701243fd-9e61-42fc-b829-2f6d4955cca1)
+![Screenshot (298)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/917853e5-a286-4a84-98f5-fd5dca7df42b)
+
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
