@@ -96,14 +96,14 @@ Anaconda - Python 3.7
 ```Python
     import random
     import cv2
-    image=cv2.imread('niru.jpg',1)
+    image=cv2.imread('jai.jpg',1)
     image=cv2.resize(image,(400,400))
     for i in range (150,200):
-      for j in range(image.shape[1]):
-          image[i][j]=[random.randint(0,255),
-                       random.randint(0,255),
-                       random.randint(0,255)] 
-    cv2.imshow('part image',image)
+        for j in range(image.shape[1]):
+            image[i][j]=[random.randint(0,255),
+                         random.randint(0,255),
+                         random.randint(0,255)] 
+    cv2.imshow('particular image',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
@@ -111,8 +111,8 @@ Anaconda - Python 3.7
   <td width="50%">
 
 ### OUTPUT:
+![Screenshot (292)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/336efc58-a8f3-432c-a62a-b570dfd3eed3)
 
- <img src="https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/1a9d7f9b-0a18-41c0-ab22-c48156d8787a">
   </td>
   </tr>
   <tr>
