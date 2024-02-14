@@ -121,21 +121,22 @@ Anaconda - Python 3.7
 ### v)Cut and paste portion of image
 
  ```Python
-    import cv2
-    image=cv2.imread('niru.jpg',1)
-    image=cv2.resize(image,(400,400))
-    tag =image[150:200,110:160]
-    image[110:160,150:200] = tag
-    cv2.imshow('partimage1',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+   import cv2
+   image=cv2.imread('jai.jpg',1)
+   image=cv2.resize(image,(400,400))
+   tag =image[150:200,110:160]
+   image[110:160,150:200] = tag
+   cv2.imshow('particular image 1',image)
+   cv2.waitKey(0)
+   cv2.destroyAllWindows()
 ```
   </td>
   <td>
     
 ### OUTPUT:
 
-<img src="https://github.com/niraunjana/COLOR_CONVERSIONS_OF-IMAGE/assets/119395610/df81b327-2916-4698-9a61-6aeefbe4abd2">
+![Screenshot (293)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/6357e70e-f148-4ebe-ae84-5bc88cad3c57)
+
   </td>
   </tr>
 </table>
