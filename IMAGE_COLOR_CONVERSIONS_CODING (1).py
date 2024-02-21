@@ -1,4 +1,4 @@
-
+!pip install opencv-python
 
 #READ AND DISPLAY IMAGE
 import cv2
