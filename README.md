@@ -9,7 +9,7 @@ ii) Access the rows and columns in an image.
 iii) Cut and paste a small portion of the image.
 
 iv)To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
-
+<br>
 
 ## Software Required:
 Anaconda - Python 3.7
@@ -34,6 +34,7 @@ Convert RGB and BGR to YCrCb
 Split and Merge RGB Image
 ### Step 10: 
 Split and merge HSV Image
+<br>
 
 ##### Program:
 ```
@@ -55,7 +56,8 @@ cv2.destroyAllWindows()
 ``` 
   </td>
   <td>
-
+<br>
+    
 ### OUTPUT:
 
 ![Screenshot (289)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/442b3dbd-310c-4fe1-8c78-a4e75ab31424)
@@ -65,6 +67,7 @@ cv2.destroyAllWindows()
 
    <tr>
     <td width=50%>
+<br>
 
 ### ii)Write the image
 ```Python
@@ -74,6 +77,7 @@ cv2.imwrite('news.jpg',image)
 ```
   </td>
   <td>
+<br>
 
 ### OUTPUT:
 
@@ -83,6 +87,8 @@ cv2.imwrite('news.jpg',image)
   </tr>
   <tr>
     <td width=50%>
+<br>
+    
 
 ### iii)Shape of the Image
 ```Python
@@ -92,6 +98,7 @@ print(image.shape)
 ```
   </td>
   <td>
+<br>
 
 ### OUTPUT:
 ![Screenshot (291)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/809e3b36-d123-4a4a-8837-b20a3325afc6)
@@ -101,6 +108,7 @@ print(image.shape)
   </tr>
   <tr>
     <td>
+<br>
       
 ### iv)Access rows and columns
 ```Python
@@ -119,7 +127,8 @@ cv2.destroyAllWindows()
 ```
   </td>
   <td width="50%">
-
+<br>
+    
 ### OUTPUT:
 ![Screenshot (292)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/336efc58-a8f3-432c-a62a-b570dfd3eed3)
 
@@ -127,6 +136,7 @@ cv2.destroyAllWindows()
   </tr>
   <tr>
     <td width=50%>
+<br>
       
 ### v)Cut and paste portion of image
 
@@ -142,6 +152,7 @@ cv2.destroyAllWindows()
 ```
   </td>
   <td>
+<br>
     
 ### OUTPUT:
 
@@ -150,6 +161,7 @@ cv2.destroyAllWindows()
   </td>
   </tr>
 </table>
+<br>
 
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
@@ -173,10 +185,11 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+<br>
 
 ### OUTPUT:
 ![Screenshot (294)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/67b2d842-0a63-43cc-a1b4-0ca1dc6c592a)
-
+<br>
 
 ### vii) HSV to RGB and BGR
 ```Python
@@ -196,11 +209,12 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+<br>
 
 ### OUTPUT:
 
 ![Screenshot (295)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/5426875a-fe70-479e-b834-76019182c807)
-
+<br>
 
 
 ### viii) RGB and BGR to YCrCb
@@ -219,10 +233,12 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+<br>
 
 ### OUTPUT:
 
 ![Screenshot (296)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/df16a437-f9b8-4f06-8e0a-7bfa47639201)
+<br>
 
 
 
@@ -246,10 +262,11 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+<br>
 
 ### OUTPUT:
 ![Screenshot (297)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/9e2ca3e4-d940-4a11-91dc-7bf8b637f016)
-
+<br>
 
 
 
@@ -272,10 +289,12 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+<br>
 
 ### OUTPUT:
 
 ![Screenshot (298)](https://github.com/Jaiganesh235/COLOR_CONVERSIONS_OF-IMAGE/assets/118657189/917853e5-a286-4a84-98f5-fd5dca7df42b)
+<br>
 
 
 ## Result:
